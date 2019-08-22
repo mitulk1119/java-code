@@ -10,5 +10,7 @@ public class Area {
 		System.out.println("Height of trinangle = " + height);
 		System.out.println("Area of trinangle = " + area);
 	}
+	
+	//TODO: please write a seperate method like double computeArea(int a, int b, int c){}
 
 }
