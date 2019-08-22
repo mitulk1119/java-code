@@ -8,5 +8,7 @@ public class Factorial {
 		}
 		System.out.println("Factorial of " + number + "! is: " + fac);
 	}
+	
+	//TODO: seperate method other than in the main, we can call the method from main
 
 }
