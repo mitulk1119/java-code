@@ -18,5 +18,19 @@ public class RanOddEven {
 		System.out.println("Odd index positions sum: " + odd);
 
 	}
+	
+	public static void findOddAndEvenIndexSums(int[] given){
+	
+	
+	} 
+	
+	static public int[] generateRandomIntArray(int size, int bound){
+		int[] temporary = new int[size];
+		
+		//for(){}
+		
+		return temporary;
+	
+	} 
 
 }
