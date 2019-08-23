@@ -21,7 +21,7 @@ public class ReverseWord {
 
 	public static void main(String[] args) {
 		ReverseWord obj = new ReverseWord();
-		obj.reverseWordInMyString("Welcome to BeginnersBook");
+		obj.reverseWordInMyString("Welcome to the World");
 
 	}
 }

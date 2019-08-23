@@ -1,16 +1,25 @@
 
 public class Area {
 
-	public static void main(String arg[]) {
+	double computeArea(double a, double b, double c) {
 
-		double base = 9.5;
-		double height = 10.5;
-		double area = (base * height) / 2;
-		System.out.println("Base of trinangle = " + base);
-		System.out.println("Height of trinangle = " + height);
-		System.out.println("Area of trinangle = " + area);
+		if (b + c > a) {
+			double semiperimeter = (a + b + c) / 2; // parameter
+			double area = Math.sqrt(semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c));
+			return area;
+		} else {
+			return a;
+		}
+
 	}
-	
-	//TODO: please write a seperate method like double computeArea(int a, int b, int c){}
+
+	public static void main(String arg[]) {
+		Area obj = new Area();
+		double a = 10;
+		double b = 2;
+		double c = 7;
+		double area = obj.computeArea(a, b, c);
+		System.out.println("the area of the triangle is: " + area);
+	}
 
 }

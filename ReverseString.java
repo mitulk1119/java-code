@@ -17,4 +17,3 @@ public class ReverseString {
 		System.out.println("String after reversing without stringbuilder: " + temp);
 	}
 }
-s

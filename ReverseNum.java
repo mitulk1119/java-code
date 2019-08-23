@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class ReverseNum {
+
 	public static void main(String args[]) {
 		int num = 0;
 		int reversenum = 0;

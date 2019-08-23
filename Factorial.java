@@ -1,14 +1,17 @@
 
 public class Factorial {
-	public static void main(String args[]) {
-		int i, fac = 1;
-		int number = 3;// It is the number to calculate factorial
-		for (i = 1; i <= number; i++) {
-			fac = fac * i;
+	static int computeFactorial(int n) {
+		if (n == 0) {
+			return 1;
+		}else {
+			return (n * computeFactorial(n - 1));
 		}
-		System.out.println("Factorial of " + number + "! is: " + fac);
-	}
-	
-	//TODO: seperate method other than in the main, we can call the method from main
+		}
 
+	public static void main(String args[]) {
+		int fac = 1;
+		int number = 5;
+		fac = computeFactorial(number);
+		System.out.println("Factorial of " + number + " is: " + fac);
+	}
 }

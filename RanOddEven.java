@@ -2,6 +2,7 @@ import java.util.Random;
 
 public class RanOddEven {
 
+	
 	public static void main(String[] args) {
 		Random r = new Random();
 		int even = 0, odd = 0;
