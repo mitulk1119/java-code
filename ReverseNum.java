@@ -15,10 +15,5 @@ public class ReverseNum {
 			num = num / 10;
 		}
 		System.out.println("Reverse of input number is: " + reversenum);
-		
-		//String t = Integer.parseInt(number).toString();
-		//reverse t using string builder
-		//get the reverse string
-		//parse the string as integer
 	}
 }

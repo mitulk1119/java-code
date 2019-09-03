@@ -6,8 +6,8 @@ public class RanOddEven {
 	public static void main(String[] args) {
 		Random r = new Random();
 		int even = 0, odd = 0;
-		for (int i = 0; i < 100; i++) {
-			int randomint = r.nextInt(100);
+		for (int i = 0; i < 10; i++) {
+			int randomint = r.nextInt(10);
 			System.out.print(randomint + " ,");
 			if (randomint % 2 == 0)
 				even += randomint;
@@ -18,19 +18,5 @@ public class RanOddEven {
 		System.out.println("Odd index positions sum: " + odd);
 
 	}
-	
-	public static void findOddAndEvenIndexSums(int[] given){
-	
-	
-	} 
-	
-	static public int[] generateRandomIntArray(int size, int bound){
-		int[] temporary = new int[size];
-		
-		//for(){}
-		
-		return temporary;
-	
-	} 
 
 }
